@@ -1,0 +1,88 @@
+#### XFT Setting ####
+Xft.dpi:		96
+Xft.antialias:		true
+Xft.rgba:		rgb
+Xft.hinting:		true
+Xft.hintstyle:		hintslight
+
+#### URXVT Setting ####
+URxvt.depth:		32
+URxvt.geometry:		90x30
+URxvt.loginShell:	true
+URxvt.internalBorder:	3
+URxvt.lineSpace:	0
+
+#### Transparency (true or false) ####
+URxvt*transparent: 	false
+
+URxvt*shading:		15
+
+Urxvt*saveLines:	12000
+
+
+#### Font ####
+URxvt*font:		xft:JetBrainsMono-Regular:pixelsize=12
+URxvt*boldfont:		xft:JetBrainsMono-Regular:Bold:pixelsize=12
+URxvt*letterspace:	-1
+
+#### Scrollbar (true or false) this is true on default ####
+URxvt*scrollBar:	false
+
+
+#### Color scheme ####
+#define S_base03        #08052b
+#define S_base02        #7fbaff
+#define S_base01        #9999cc
+#define S_base00        #ff7f7f
+#define S_base0         #7f7fff
+#define S_base1         #7f7fff
+#define S_base2         #cdccdb
+#define S_base3         #e3e3ea
+#define S_yellow        #cc3980
+#define S_orange        #ff7f7f
+#define S_red           #ff7f7f
+#define S_magenta       #7f3fbf
+#define S_violet        #7f3fbf
+#define S_blue          #7fbaff
+#define S_cyan          #7f7fff
+#define S_green         #47b35d
+
+*background:            S_base03
+*foreground:            White
+*fading:                0
+*fadeColor:             S_base03
+*cursorColor:           S_base1
+*pointerColorBackground:S_base01
+*pointerColorForeground:S_base1
+
+!! black dark/light
+*color0:                S_base03
+*color8:                S_base02
+
+!! red dark/light
+*color1:                S_red
+*color9:                S_orange
+
+!! green dark/light
+*color2:                S_green
+*color10:               S_base01
+
+!! yellow dark/light
+*color3:                S_yellow
+*color11:               S_base00
+
+!! blue dark/light
+*color4:                S_blue
+*color12:               S_base0
+
+!! magenta dark/light
+*color5:                S_magenta
+*color13:               S_violet
+
+!! cyan dark/light
+*color6:                S_cyan
+*color14:               S_base1
+
+!! white dark/light
+*color7:                S_base2
+*color15:               S_base3
