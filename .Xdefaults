@@ -30,6 +30,8 @@ URxvt*scrollBar:	false
 
 
 #### Color scheme ####
+#### You can change the variable all you want ####
+
 #define S_base03        #08052b
 #define S_base02        #7fbaff
 #define S_base01        #9999cc
