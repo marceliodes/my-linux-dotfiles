@@ -7,9 +7,6 @@ set expandtab
 set smartindent
 set nu
 set noswapfile
-set nobackup
-set undodir=~/.vim/undodir
-set undofile
 set incsearch
 set laststatus=2
 set noshowmode
